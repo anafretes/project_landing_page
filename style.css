@@ -1,0 +1,173 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+body {
+  font-family: 'Roboto', sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-content: stretch;
+  justify-content: space-between;
+  margin: 0;
+  color: #f9faf8;
+}
+
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #1f2937;
+  padding: 8px 72px;
+}
+
+.header-logo {
+  font-size: 24px;
+  font-weight: bolder;
+}
+
+.box-one {
+  background-color: #1f2937;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 12px;
+  padding: 72px;
+}
+
+.hero {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  align-items: flex-start;
+}
+
+.main-text {
+  font-size: 48px;
+  font-weight: bolder;
+}
+
+.secondary-text, .cta-sec-text{
+  font-size: 18px;
+}
+
+.sign-up, .other-button {
+  font-weight: bold;
+  background-color: #3882f6;
+  border: none;
+  font-size: 16px;
+  padding: 10px 36px;
+  border-radius: 8px;
+  color: #e5e7eb;
+}
+
+.hero-img {
+  background-color: gray;
+  padding: 100px 130px;
+  align-self: center;
+  text-align: center;
+  font-size: 12px;
+}
+
+.box-two {
+  text-align: center;
+  padding: 0 72px 72px;
+  font-size: 14px;
+  color: #505b5b;
+}
+
+.container {
+  display: flex;
+}
+
+.info-header {
+  font-size: 36px;
+  font-weight: bolder;
+  color: #1f2937;
+  padding: 24px;
+}
+
+.image {
+  border: solid;
+  border-color: #3882f6;
+  border-radius: 8px;
+  border-width: medium;
+  width: 60%
+}
+
+.text {
+  padding: 10px 36px;
+  margin: 0;
+}
+
+.box-three {
+  padding: 92px;
+  background-color: #e5e7eb;
+  color: #1f2937;
+}
+
+.quote {
+  font-size: 36px;
+  font-style: italic;
+  font-weight: light;
+  color: #1f2937;
+}
+
+.quote-author {
+  text-align: right;
+  font-weight: 800;
+  font-size: 20px;
+}
+
+.box-four {
+  margin: 72px 18px ;
+}
+
+.cta {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #3882f6;
+  border-radius: 8px;
+  padding: 36px 72px;
+
+}
+
+
+.cta-main-text {
+  font-weight: bolder;
+  font-size: 24px;
+}
+
+.other-button {
+  border: solid;
+  border-width: thin;
+  border-color: #e5e7eb;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #1f2937;
+  padding: 30px;
+}
+
+ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+  margin: 0;
+}
+
+li {
+  padding: 8px;
+  font-size: 18px;
+}
+
+a {
+  text-decoration: none;
+  color: #e5e7eb;
+}
+
+img {
+  text-align: center;
+}
